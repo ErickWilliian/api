@@ -4,7 +4,7 @@ const port = 3000;
 
 // Rota raiz
 app.get('/', (req, res) => {
-  res.send('Olá, mundo!');
+  res.status(200).json("ola mundo")
 });
 
 // Inicia o servidor
